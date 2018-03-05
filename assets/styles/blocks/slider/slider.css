@@ -1,0 +1,39 @@
+.slider {
+    position: relative;
+
+    background: url("img/slider-bg.png") ;
+    background-size: cover;
+}
+
+
+.slider__container {
+    display: flex;
+
+    padding: 35px 0;
+}
+
+.slider__content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 20px;
+}
+
+.slider__iphone {
+    margin: 0 auto;
+}
+
+.slider__title, .slider__text {
+    font-weight: 300;
+    color: #FFF;
+}
+
+.slider__title {
+    font-size: 2.8em;
+}
+
+.slider__text {
+    font-size: 1.73em;
+}

@@ -1,0 +1,53 @@
+.button {
+    font-size: 1.46em;
+    font-weight: 300;
+    color: #5094F2;
+
+    position: relative;
+
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 11px;
+
+    border-radius: 2px;
+    background-color: #808080;
+}
+
+.button:before {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+
+    content: "";
+
+    background: url("img/button-ok.png") no-repeat;
+}
+
+.button_primary {
+    color: #FFF;
+
+    background-color: #5094F2;
+}
+
+.button_primary:hover {
+    background-color: #0A6EFA;
+}
+
+
+@media screen and (max-width: 991px) {
+    .button {
+        font-size: 2.06em;
+
+        width: 60%;
+    }
+
+    .button:before {
+        width: 33px;
+        height: 33px;
+
+        background-size: cover;
+    }
+}

@@ -1,0 +1,7 @@
+.wrapper {
+    position: relative;
+
+    overflow: hidden;
+
+    min-width: 768px;
+}

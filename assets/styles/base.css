@@ -1,0 +1,16 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    color: #909090;
+
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
